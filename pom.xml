@@ -1,0 +1,6 @@
+<modules>
+    <module>sales/order</module>
+    <module>sales/invoice</module>
+    <module>sales/masterdata</module>
+    <module>fleurop/sales/order</module>
+</modules>

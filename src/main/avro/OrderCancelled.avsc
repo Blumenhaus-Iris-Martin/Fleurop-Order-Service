@@ -1,0 +1,21 @@
+{
+  "type": "record",
+  "namespace": "de.bim.fleurop.sales.order.events",
+  "name": "OrderCancelled",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": "string"
+    },
+    {
+      "name": "orderId",
+      "type": "string",
+      "doc": "Fleurop Auftragsnummer"
+    },
+    {
+      "name": "orderReferenceId",
+      "type": "string",
+      "doc": "Fleurop SAP Id"
+    }
+  ]
+}

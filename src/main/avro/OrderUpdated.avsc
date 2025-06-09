@@ -1,0 +1,29 @@
+{
+  "type": "record",
+  "namespace": "de.bim.fleurop.sales.order.events",
+  "name": "OrderUpdated",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": "string"
+    },
+    {
+      "name": "orderId",
+      "type": "string",
+      "doc": "Fleurop Auftragsnummer"
+    },
+    {
+      "name": "orderReferenceId",
+      "type": "string",
+      "doc": "Fleurop SAP Id"
+    },
+    {
+      "name": "status",
+      "type": {
+        "name": "OrderStatus",
+        "type": "enum",
+        "symbols": ["TODELIVER", "CANCELED", "DELIVERYATTEMPT"]
+      }
+    }
+  ]
+}

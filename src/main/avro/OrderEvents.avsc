@@ -1,0 +1,5 @@
+[
+  "de.bim.fleurop.sales.order.events.OrderCreated",
+  "de.bim.fleurop.sales.order.events.OrderUpdated",
+  "de.bim.fleurop.sales.order.events.OrderCancelled"
+]
